@@ -1,9 +1,19 @@
 package main
 
 import (
-	"market/market"
+	"task_4/market"
 )
 
 func main() {
-	market := market.Market{}
+	m := market.Market{}
+
+	m.AddProduct("PC #1", 100, 20)
+	m.AddProduct("PC #2", 150, 25)
+	m.AddProduct("Microphone", 60, 6)
+	m.AddProduct("Monitor", 80, 7)
+	m.AddProduct("Keyboard", 100, 10)
+
+	for { 
+		m.GetProductsDialog()
+	}
 }
