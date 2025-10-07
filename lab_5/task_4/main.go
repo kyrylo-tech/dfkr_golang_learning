@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	m := market.Market{}
+	m := market.NewMarket()
 
 	m.AddProduct("PC #1", 100, 20)
 	m.AddProduct("PC #2", 150, 25)

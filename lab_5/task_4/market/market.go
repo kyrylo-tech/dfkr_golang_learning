@@ -4,11 +4,10 @@ import (
     "github.com/mazen160/go-random"
     "fmt"
     "strings"
-    "errors"
 )
 
 type Market struct {
-    Products []Product
+    Products map[string]Product
 }
 
 type Product struct {
@@ -18,6 +17,12 @@ type Product struct {
     Code string
 }
 
+func NewMarket() *Market {
+    return &Market{
+        Products: make(map[string]Product), // Initialize the map here
+    }
+}
+
 func (m *Market) AddProduct(Name string, Price float64, Weight float64) {
     CodeData, err := random.String(5)
     
@@ -25,12 +30,12 @@ func (m *Market) AddProduct(Name string, Price float64, Weight float64) {
         fmt.Println(err)
     }
     
-    m.Products = append(m.Products, Product{
+    m.Products[strings.ToUpper(CodeData)] = Product{
         Name: Name,
         Price: Price,
         Weight: Weight,
         Code: strings.ToUpper(CodeData),
-    })
+    }
 }
 
 func (m *Market) GetProductInfo(p Product) {
@@ -38,14 +43,8 @@ func (m *Market) GetProductInfo(p Product) {
         p.Name, p.Price, p.Weight, p.Code)
 }
 
-func (m *Market) GetProductByCode(code string) (Product, error) {
-    for i := 0; i < len(m.Products); i++ {
-        if m.Products[i].Code == code {
-            return m.Products[i], nil
-        }
-    }
-
-    return Product{}, errors.New("Product with this code not found")
+func (m *Market) GetProductByCode(code string) (Product) {
+    return m.Products[code]
 }
 
 func (m *Market) GetProductsDialog() {
@@ -53,18 +52,13 @@ func (m *Market) GetProductsDialog() {
     
     var code string
 
-    for i := 0; (i < len(m.Products)); i++ {
-        fmt.Printf("\n- %s", m.Products[i].Code)
+    for code := range m.Products {
+        fmt.Printf("\n- %s", code)
     }
     
     fmt.Printf("\n\nType prefer code of product you need:")
     fmt.Scanln(&code)
 
-    product, err := m.GetProductByCode(code)
-    if (err != nil) {
-        fmt.Printf("\n%s\n\n", err)
-        return
-    }
-
+    product := m.GetProductByCode(code)
     m.GetProductInfo(product)
 }
