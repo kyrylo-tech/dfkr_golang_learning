@@ -44,7 +44,7 @@ type Cache struct {
 
 
 func runBenchmark(c Cache, numGos int, readPercent float64) time.Duration {
-	return
+	return time.Duration
 }
 
 func printBenchmarkRes(clock time.Duration) {
