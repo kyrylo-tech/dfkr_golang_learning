@@ -2,28 +2,39 @@ package main
 
 import (
 	"fmt"
-	"time"
 	"sync"
 )
 
-type counter struct {
+type Counter struct {
 	m sync.Mutex
 	v int
 }
 
-func (c *counter) incr() {
+func (c *Counter) Inc() {
 	c.m.Lock()
 	c.v++
 	c.m.Unlock()
 }
 
-func main() {
-	c := counter{v: 0}
+func runOnce() int {
+	c := Counter{}
+	var wg sync.WaitGroup
 
 	for i := 0; i < 1000; i++ {
-		go c.incr()
+		wg.Add(1)
+		go func() {
+			defer wg.Done()
+			c.Inc()
+		}()
 	}
 
-	time.Sleep(time.Second)
-	fmt.Printf("\nSafe counter: %d\n\n", c.v)
+	wg.Wait()
+	return c.v
+}
+
+func main() {
+	for i := 1; i <= 10; i++ {
+		result := runOnce()
+		fmt.Printf("Результат #%d: %d\n", i, result)
+	}
 }

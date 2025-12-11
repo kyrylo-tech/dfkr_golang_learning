@@ -1,0 +1,396 @@
+[
+  {
+    "id": 1001,
+    "username": "johndoe",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com",
+    "isActive": true,
+    "address": {
+      "city": "New York",
+      "street": "123 Main St"
+    },
+    "skills": ["Go", "Docker", "Python"]
+  },
+  {
+    "id": 1002,
+    "username": "asmith",
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "email": "alice.smith@example.com",
+    "isActive": true,
+    "address": {
+      "city": "London",
+      "street": "456 Oak Ave"
+    },
+    "skills": ["Python", "JavaScript", "Go"]
+  },
+  {
+    "id": 1003,
+    "username": "bobj",
+
+    "firstName": "Bob",
+    "lastName": "Johnson",
+    "email": "bob.johnson@example.com",
+    "isActive": false,
+    "address": {
+      "city": "Paris",
+      "street": "789 Pine Ln"
+    },
+    "skills": ["Java", "Spring", "Go"]
+  },
+  {
+    "id": 1004,
+    "username": "cgreen",
+    "firstName": "Charlie",
+    "lastName": "Green",
+    "email": "charlie.green@example.com",
+    "isActive": true,
+    "address": {
+      "city": "Tokyo",
+      "street": "101 Maple Dr"
+    },
+    "skills": ["C#", ".NET", "Python"]
+  },
+  {
+    "id": 1005,
+    "username": "davis_e",
+    "firstName": "Emily",
+    "lastName": "Davis",
+    "email": "emily.davis@example.com",
+    "isActive": true,
+    "address": {
+      "city": "Sydney",
+      "street": "202 Birch Rd"
+    },
+    "skills": ["Ruby", "Go", "Python"]
+  },
+  {
+    "id": 1006,
+    "username": "frankw",
+    "firstName": "Frank",
+    "lastName": "White",
+    "email": "frank.white@example.com",
+    "isActive": false,
+    "address": {
+      "city": "Berlin",
+      "street": "303 Cedar Pl"
+    },
+    "skills": ["PHP", "Laravel", "Go"]
+  },
+  {
+    "id": 1007,
+    "username": "graceh",
+    "firstName": "Grace",
+    "lastName": "Hall",
+    "email": "grace.hall@example.com",
+    "isActive": true,
+    "address": {
+      "city": "Toronto",
+      "street": "404 Elm Blvd"
+    },
+    "skills": ["JavaScript", "Node.js", "Python"]
+  },
+  {
+    "id": 1008,
+    "username": "henryt",
+    "firstName": "Henry",
+    "lastName": "Taylor",
+    "email": "henry.taylor@example.com",
+    "isActive": true,
+    "address": {
+      "city": "Kyiv",
+      "street": "505 Willow Way"
+    },
+    "skills": ["Go", "Kubernetes", "Python"]
+  },
+  {
+    "id": 1009,
+
+    "username": "ivym",
+    "firstName": "Ivy",
+    "lastName": "Martin",
+    "email": "ivy.martin@example.com",
+    "isActive": false,
+    "address": {
+      "city": "Lviv",
+      "street": "606 Aspen Ct"
+    },
+    "skills": ["Swift", "iOS", "Firebase"]
+  },
+  {
+    "id": 1010,
+    "username": "jackl",
+    "firstName": "Jack",
+    "lastName": "Lee",
+    "email": "jack.lee@example.com",
+    "isActive": true,
+    "address": {
+      "city": "Odesa",
+      "street": "707 Spruce Ave"
+    },
+    "skills": ["Kotlin", "Android", "Java"]
+  },
+  {
+    "id": 1011,
+    "username": "karenw",
+    "firstName": "Karen",
+    "lastName": "Wilson",
+    "email": "karen.wilson@example.com",
+    "isActive": true,
+    "address": {
+      "city": "Warsaw",
+      "street": "808 Redwood Dr"
+    },
+    "skills": ["TypeScript", "Angular", "Firebase"]
+  },
+  {
+    "id": 1012,
+    "username": "liamk",
+    "firstName": "Liam",
+    "lastName": "King",
+    "email": "liam.king@example.com",
+    "isActive": false,
+    "address": {
+      "city": "Prague",
+      "street": "909 Sequoia St"
+    },
+    "skills": ["Python", "Django", "PostgreSQL"]
+  },
+  {
+    "id": 1013,
+    "username": "miaa",
+    "firstName": "Mia",
+    "lastName": "Anderson",
+    "email": "mia.anderson@example.com",
+    "isActive": true,
+    "address": {
+      "city": "Madrid",
+      "street": "111 Palm Rd"
+    },
+    "skills": ["Go", "Gin", "Microservices"]
+  },
+  {
+    "id": 1014,
+    "username": "noahb",
+    "firstName": "Noah",
+    "lastName": "Brown",
+    "email": "noah.brown@example.com",
+    "isActive": true,
+    "address": {
+      "city": "Rome",
+      "street": "222 Cypress Ln"
+    },
+    "skills": ["Java", "Kafka", "Cassandra"]
+  },
+  {
+
+    "id": 1015,
+    "username": "oliviaj",
+    "firstName": "Olivia",
+    "lastName": "Jones",
+    "email": "olivia.jones@example.com",
+    "isActive": true,
+    "address": {
+      "city": "Lisbon",
+      "street": "333 Magnolia Ave"
+    },
+    "skills": ["JavaScript", "Vue.js", "Nuxt.js"]
+  },
+  {
+    "id": 1016,
+    "username": "peterg",
+    "firstName": "Peter",
+    "lastName": "Garcia",
+    "email": "peter.garcia@example.com",
+    "isActive": false,
+    "address": {
+      "city": "Amsterdam",
+      "street": "444 Chestnut St"
+    },
+    "skills": ["Python", "Flask", "SQLAlchemy"]
+  },
+  {
+    "id": 1017,
+    "username": "queenier",
+    "firstName": "Queenie",
+    "lastName": "Rodriguez",
+    "email": "queenie.rodriguez@example.com",
+    "isActive": true,
+    "address": {
+      "city": "Dublin",
+      "street": "555 Walnut Dr"
+    },
+    "skills": ["C++", "Unreal Engine", "GameDev"]
+  },
+  {
+    "id": 1018,
+    "username": "ryanm",
+    "firstName": "Ryan",
+    "lastName": "Martinez",
+    "email": "ryan.martinez@example.com",
+    "isActive": true,
+    "address": {
+      "city": "Vienna",
+      "street": "666 Cherry Ln"
+    },
+    "skills": ["Go", "gRPC", "Prometheus"]
+  },
+  {
+    "id": 1019,
+    "username": "sophiat",
+    "firstName": "Sophia",
+    "lastName": "Thomas",
+    "email": "sophia.thomas@example.com",
+    "isActive": true,
+    "address": {
+      "city": "Zurich",
+      "street": "777 Poplar Ct"
+    },
+    "skills": ["Rust", "WebAssembly", "Actix"]
+  },
+  {
+    "id": 1020,
+    "username": "tomh",
+    "firstName": "Tom",
+    "lastName": "Hernandez",
+    "email": "tom.hernandez@example.com",
+    "isActive": false,
+    "address": {
+      "city": "Brussels",
+      "street": "888 Sycamore Pl"
+    },
+    "skills": ["Scala", "Akka", "Spark"]
+  },
+
+  {
+    "id": 1021,
+    "username": "ursulav",
+    "firstName": "Ursula",
+    "lastName": "Volk",
+    "email": "ursula.volk@example.com",
+    "isActive": true,
+    "address": {
+      "city": "Munich",
+      "street": "999 Juniper Ave"
+    },
+    "skills": ["Python", "Pandas", "NumPy"]
+  },
+  {
+    "id": 1022,
+    "username": "victorc",
+    "firstName": "Victor",
+    "lastName": "Chen",
+    "email": "victor.chen@example.com",
+    "isActive": true,
+    "address": {
+      "city": "Singapore",
+      "street": "121 Holly Rd"
+    },
+    "skills": ["JavaScript", "Svelte", "TypeScript"]
+  },
+  {
+    "id": 1023,
+    "username": "wendyq",
+    "firstName": "Wendy",
+    "lastName": "Quinn",
+    "email": "wendy.quinn@example.com",
+    "isActive": false,
+    "address": {
+      "city": "Seoul",
+      "street": "232 Laurel St"
+    },
+    "skills": ["Go", "NATS", "PostgreSQL"]
+  },
+  {
+    "id": 1024,
+    "username": "xaviera",
+    "firstName": "Xavier",
+    "lastName": "Adams",
+    "email": "xavier.adams@example.com",
+    "isActive": true,
+    "address": {
+      "city": "Mexico City",
+      "street": "343 Elderberry Ln"
+    },
+    "skills": ["C#", "Unity", "GameDev"]
+  },
+  {
+    "id": 1025,
+    "username": "yasmineb",
+    "firstName": "Yasmine",
+    "lastName": "Baker",
+    "email": "yasmine.baker@example.com",
+    "isActive": true,
+    "address": {
+      "city": "Buenos Aires",
+      "street": "454 Hawthorn Dr"
+    },
+    "skills": ["Python", "TensorFlow", "Keras"]
+  },
+  {
+    "id": 1026,
+    "username": "zackp",
+    "firstName": "Zack",
+    "lastName": "Price",
+    "email": "zack.price@example.com",
+    "isActive": false,
+    "address": {
+      "city": "Rio de Janeiro",
+      "street": "565 Mulberry Ct"
+    },
+    "skills": ["PHP", "WordPress", "WooCommerce"]
+
+  },
+  {
+    "id": 1027,
+    "username": "annap",
+    "firstName": "Anna",
+    "lastName": "Petrenko",
+    "email": "anna.petrenko@example.com",
+    "isActive": true,
+    "address": {
+      "city": "Kharkiv",
+      "street": "1 Sumska St"
+    },
+    "skills": ["Go", "JavaScript", "HTML"]
+  },
+  {
+    "id": 1028,
+    "username": "olegk",
+    "firstName": "Oleg",
+    "lastName": "Koval",
+    "email": "oleg.koval@example.com",
+    "isActive": true,
+    "address": {
+      "city": "Dnipro",
+      "street": "10 Yavornytskoho Ave"
+    },
+    "skills": ["Java", "Spring", "React"]
+  },
+  {
+    "id": 1029,
+    "username": "mariyaf",
+    "firstName": "Mariya",
+    "lastName": "Franko",
+    "email": "mariya.franko@example.com",
+    "isActive": true,
+    "address": {
+      "city": "Lviv",
+      "street": "20 Rynok Sq"
+    },
+    "skills": ["Python", "Data Analysis", "SQL"]
+  },
+  {
+    "id": 1030,
+    "username": "vasyls",
+    "firstName": "Vasyl",
+    "lastName": "Shevchenko",
+    "email": "vasyl.shevchenko@example.com",
+    "isActive": false,
+    "address": {
+      "city": "Kyiv",
+      "street": "5 Khreshchatyk St"
+    }
+  }
+]

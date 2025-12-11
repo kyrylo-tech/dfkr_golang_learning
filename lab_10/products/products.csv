@@ -1,0 +1,51 @@
+id,product_name,supplier_name,supplier_phone,tags
+2001,Смартфон X100,TechCore,0800500101,electronics|smartphone|flagship
+2002,Ноутбук Pro 16,AlphaDigital,0442003040,electronics|laptop|workstation
+2003,"Кавомашина ""Espresso""",KitchenWorld,0800500202,kitchen|appliances|coffee
+2004,Бездротові навушники Airs,AudioPhile,0443004050,electronics|audio|wireless
+2005,Розумний годинник S5,TechCore,0800500101,electronics|wearable|fitness
+2006,Офісне крісло Ergonomic,OfficeBest,0501234567,furniture|office
+2007,"4K Монітор 27""",AlphaDigital,0442003040,electronics|monitor|display
+2008,Механічна клавіатура K9,GadgetCo,0934567890,electronics|accessory|gaming
+2009,Чайник електричний,KitchenWorld,0800500202,kitchen|appliances
+2010,"Рюкзак ""Urban Hiker""",GearUp,0677654321,fashion|accessory|travel
+2011,Зовнішній SSD 1TB,AlphaDigital,0442003040,electronics|storage
+2012,Фітнес-трекер FitBand,TechCore,0800500101,electronics|wearable|fitness
+2013,"Тостер ""AutoToast""",KitchenWorld,0800500202,kitchen|appliances
+2014,Ігрова миша G500,GadgetCo,0934567890,electronics|accessory|gaming
+2015,Шкіряний гаманець,GearUp,0677654321,fashion|accessory
+2016,Веб-камера Full HD,AlphaDigital,0442003040,electronics|accessory
+2017,"Блендер ""PowerMix""",KitchenWorld,0800500202,kitchen|appliances|blender
+2018,Столик для ноутбука,OfficeBest,0501234567,furniture|office|accessory
+2019,"Портативна колонка ""Beat""",AudioPhile,0443004050,electronics|audio|portable
+2020,Смарт-ваги,TechCore,0800500101,electronics|health|smart_home
+2021,Геймпад Pro,GadgetCo,0934567890,electronics|gaming|accessory
+2022,Дорожня валіза,GearUp,0677654321,travel|accessory
+2023,Настільна лампа LED,OfficeBest,0501234567,office|lighting|smart_home
+2024,Мікрохвильова піч,KitchenWorld,0800500202,kitchen|appliances
+2025,Wi-Fi Роутер AX3000,AlphaDigital,0442003040,electronics|network
+2026,Навушники (дротові),AudioPhile,0443004050,electronics|audio
+2027,Смартфон Lite 20,TechCore,0800500101,electronics|smartphone|budget
+2028,Килимок для миші XL,GadgetCo,0934567890,accessory|gaming
+2029,Спортивна сумка,GearUp,0677654321,sport|accessory
+2030,"Мультиварка ""Chef""",KitchenWorld,0800500202,kitchen|appliances
+2031,Зволожувач повітря,TechCore,0800500101,appliances|health|smart_home
+2032,Ергономічна миша,OfficeBest,0501234567,electronics|accessory|office
+2033,Павербанк 20000mAh,AlphaDigital,0442003040,electronics|accessory|mobile
+2034,Набір посуду,KitchenWorld,0800500202,kitchen|cookware
+2035,"Ігрове крісло ""Racer""",GadgetCo,0934567890,furniture|gaming|office
+2036,"Сонячні окуляри ""Aviator""",GearUp,0677654321,fashion|accessory
+2037,"Мікрофон ""Studio""",AudioPhile,0443004050,electronics|audio|streaming
+2038,Постільна білизна (King),HomeStyle,0991112233,home|textile
+2039,Карта пам'яті 256GB,AlphaDigital,0442003040,electronics|storage
+2040,Електрична зубна щітка,TechCore,0800500101,health|appliances
+2041,Кухонні ваги,KitchenWorld,0800500202,kitchen|accessory
+2042,Крісло-мішок,HomeStyle,0991112233,furniture|home
+2043,Підставка для ноутбука,OfficeBest,0501234567,accessory|office
+2044,Проектор MiniLED,GadgetCo,0934567890,electronics|display
+2045,Термос (1л),GearUp,0677654321,kitchen|travel|accessory
+2046,Звукова карта USB,AudioPhile,0443004050,electronics|audio|accessory
+2047,Набір рушників,HomeStyle,0991112233,home|textile
+2048,Смарт-лампа RGB,TechCore,0800500101,smart_home|lighting
+2049,Флеш-накопичувач 128GB,AlphaDigital,0442003040,electronics|storage
+2050,Кавомолка,KitchenWorld,0800500202,kitchen|appliances|coffee
