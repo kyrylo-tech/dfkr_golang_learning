@@ -14,12 +14,14 @@ type CacheMap struct {
 
 func (c *CacheMap) Set(key string, value int) {
 	c.m.Lock()
+	time.Sleep(10 * time.Microsecond)
 	c.products[key] = value
 	c.m.Unlock()
 }
 
 func (c *CacheMap) Get(key string) int {
 	c.m.Lock()
+	time.Sleep(10 * time.Microsecond)
 	defer c.m.Unlock()
 	return c.products[key]
 }
@@ -31,12 +33,14 @@ type RWCacheMap struct {
 
 func (c *RWCacheMap) RWSet(key string, value int) {
 	c.m.Lock()
+	time.Sleep(10 * time.Microsecond)
 	c.products[key] = value
 	c.m.Unlock()
 }
 
 func (c *RWCacheMap) RWGet(key string) int {
 	c.m.RLock()
+	time.Sleep(10 * time.Microsecond)
 	defer c.m.RUnlock()
 	return c.products[key]
 }
@@ -46,7 +50,7 @@ type Cache struct {
 	RWMap *RWCacheMap
 }
 
-func runBenchmark(doRead func(), doWrite func(), numGoroutines int, readPercent float64) time.Duration {
+func runBenchmark(doRead func(), doWrite func(), numGoroutines int, opsPerGoroutine int, readPercent float64) time.Duration {
 	var wg sync.WaitGroup
 	start := time.Now()
 
@@ -54,11 +58,12 @@ func runBenchmark(doRead func(), doWrite func(), numGoroutines int, readPercent 
 		wg.Add(1)
 		go func() {
 			defer wg.Done()
-
-			if rand.Float64() < readPercent {
-				doRead()
-			} else {
-				doWrite()
+			for j := 0; j < opsPerGoroutine; j++ {
+				if rand.Float64() < readPercent {
+					doRead()
+				} else {
+					doWrite()
+				}
 			}
 		}()
 	}
@@ -93,20 +98,25 @@ func main() {
 		{"10% читання", 0.1},
 	}
 
+	numGoroutines := 1000
+	ops := 500
+
 	for _, t := range tests {
 		fmt.Println("\nСценарій:", t.name)
 
 		d1 := runBenchmark(
 			func() { c.DMap.Get("item_1") },
 			func() { c.DMap.Set("item_1", rand.Intn(1000)) },
-			100000,
+			numGoroutines,
+			ops,
 			t.readPercent,
 		)
 
 		d2 := runBenchmark(
 			func() { c.RWMap.RWGet("item_1") },
 			func() { c.RWMap.RWSet("item_1", rand.Intn(1000)) },
-			100000,
+			numGoroutines,
+			ops,
 			t.readPercent,
 		)
 
