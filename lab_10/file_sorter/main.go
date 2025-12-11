@@ -28,20 +28,20 @@ func fileCategory(path string) string {
 
 func moveFile(src, destDir string, logger *log.Logger) error {
 	if err := os.MkdirAll(destDir, 0o755); err != nil {
-		logger.Printf("ERROR creating dir %s: %v\n", destDir, err)
+		logger.Printf("ERROR creating dir %s: %v", destDir, err)
 		return err
 	}
+	logger.Printf("Створено директорію: %s", destDir)
 
 	destPath := filepath.Join(destDir, filepath.Base(src))
 
 	if err := os.Rename(src, destPath); err != nil {
-		logger.Printf("ERROR moving %s -> %s: %v\n", src, destPath, err)
+		logger.Printf("ERROR moving %s -> %s: %v", src, destPath, err)
 		return err
 	}
 
-	msg := fmt.Sprintf("Переміщено: %s -> %s\n", src, destPath)
-	fmt.Print(msg)
-	logger.Print(msg)
+	logger.Printf("Переміщено: %s -> %s", src, destPath)
+	fmt.Printf("Переміщено: %s -> %s\n", src, destPath)
 
 	return nil
 }

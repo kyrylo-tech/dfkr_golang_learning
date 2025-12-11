@@ -1,0 +1,14 @@
+2025/12/11 15:22:34 === Start sorting ===
+2025/12/11 15:22:34 Створено директорію: C:\Users\kiril\OneDrive\Documents\GitHub\dfkr_golang_learning\lab_10\file_sorter\sorted_files\Documents
+2025/12/11 15:22:34 Переміщено: C:\Users\kiril\OneDrive\Documents\GitHub\dfkr_golang_learning\lab_10\file_sorter\lab_10_2\README.md -> C:\Users\kiril\OneDrive\Documents\GitHub\dfkr_golang_learning\lab_10\file_sorter\sorted_files\Documents\README.md
+2025/12/11 15:22:34 Створено директорію: C:\Users\kiril\OneDrive\Documents\GitHub\dfkr_golang_learning\lab_10\file_sorter\sorted_files\Images
+2025/12/11 15:22:34 Переміщено: C:\Users\kiril\OneDrive\Documents\GitHub\dfkr_golang_learning\lab_10\file_sorter\lab_10_2\docs\img\cat.jpg -> C:\Users\kiril\OneDrive\Documents\GitHub\dfkr_golang_learning\lab_10\file_sorter\sorted_files\Images\cat.jpg
+2025/12/11 15:22:34 Створено директорію: C:\Users\kiril\OneDrive\Documents\GitHub\dfkr_golang_learning\lab_10\file_sorter\sorted_files\Images
+2025/12/11 15:22:34 Переміщено: C:\Users\kiril\OneDrive\Documents\GitHub\dfkr_golang_learning\lab_10\file_sorter\lab_10_2\docs\img\dog.jpg -> C:\Users\kiril\OneDrive\Documents\GitHub\dfkr_golang_learning\lab_10\file_sorter\sorted_files\Images\dog.jpg
+2025/12/11 15:22:34 Створено директорію: C:\Users\kiril\OneDrive\Documents\GitHub\dfkr_golang_learning\lab_10\file_sorter\sorted_files\Documents
+2025/12/11 15:22:34 Переміщено: C:\Users\kiril\OneDrive\Documents\GitHub\dfkr_golang_learning\lab_10\file_sorter\lab_10_2\docs\manual.txt -> C:\Users\kiril\OneDrive\Documents\GitHub\dfkr_golang_learning\lab_10\file_sorter\sorted_files\Documents\manual.txt
+2025/12/11 15:22:34 Створено директорію: C:\Users\kiril\OneDrive\Documents\GitHub\dfkr_golang_learning\lab_10\file_sorter\sorted_files\PDFs
+2025/12/11 15:22:34 Переміщено: C:\Users\kiril\OneDrive\Documents\GitHub\dfkr_golang_learning\lab_10\file_sorter\lab_10_2\docs\presentation.pdf -> C:\Users\kiril\OneDrive\Documents\GitHub\dfkr_golang_learning\lab_10\file_sorter\sorted_files\PDFs\presentation.pdf
+2025/12/11 15:22:34 Створено директорію: C:\Users\kiril\OneDrive\Documents\GitHub\dfkr_golang_learning\lab_10\file_sorter\sorted_files\Sources
+2025/12/11 15:22:34 Переміщено: C:\Users\kiril\OneDrive\Documents\GitHub\dfkr_golang_learning\lab_10\file_sorter\lab_10_2\src\main.go -> C:\Users\kiril\OneDrive\Documents\GitHub\dfkr_golang_learning\lab_10\file_sorter\sorted_files\Sources\main.go
+2025/12/11 15:22:34 === Sorting finished ===
