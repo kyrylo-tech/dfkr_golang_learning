@@ -15,7 +15,7 @@ func runNoMutex() int {
 		wg.Add(1)
 		go func() {
 			defer wg.Done()
-			counter++ // НЕ синхронізовано → race condition
+			counter++
 		}()
 	}
 
