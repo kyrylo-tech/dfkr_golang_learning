@@ -1,0 +1,24 @@
+{
+  "orderId": "ORD-12345",
+  "customer": {
+    "firstName": "Jane",
+    "lastName": "Smith"
+  },
+  "items": [
+    { "productId": "P001", "name": "Laptop", "quantity": 1 },
+    { "productId": "P002", "name": "Mouse", "quantity": 2 }
+  ],
+  "totalAmount": 1299.99,
+  "test": {
+    "orderId": "ORD-12345",
+    "customer": {
+      "firstName": "Jane",
+      "lastName": "Smith"
+    },
+    "items": [
+      { "productId": "P001", "name": "Laptop", "quantity": 1 },
+      { "productId": "P002", "name": "Mouse", "quantity": 2 }
+    ],
+    "totalAmount": 1299.99
+  }
+}

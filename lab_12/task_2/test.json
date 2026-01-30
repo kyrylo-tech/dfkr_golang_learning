@@ -1,0 +1,42 @@
+{
+  "appName": "TestApp",
+  "version": "1.0.0",
+  "logLevel": "info",
+  "logInterval": 3,
+  "debug": false,
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "user": "admin",
+    "password": "secret"
+  }
+}
+[
+  {
+    "id": 1012,
+    "username": "liamk",
+    "firstName": "Liam",
+    "lastName": "King",
+    "email": "liam.king@example.com",
+    "role": "admin",
+    "active": true
+  },
+  {
+    "id": 1013,
+    "username": "sophiaw",
+    "firstName": "Sophia",
+    "lastName": "White",
+    "email": "sophia.white@example.com",
+    "role": "user",
+    "active": true
+  },
+  {
+    "id": 1014,
+    "username": "noahp",
+    "firstName": "Noah",
+    "lastName": "Parker",
+    "email": "noah.parker@example.com",
+    "role": "user",
+    "active": false
+  }
+]

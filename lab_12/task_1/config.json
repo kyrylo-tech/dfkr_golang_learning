@@ -1,0 +1,13 @@
+{
+  "appName": "TestApp",
+  "version": "1.0.0",
+  "logLevel": "info",
+  "logInterval": 3,
+  "debug": false,
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "user": "admin",
+    "password": "secret"
+  }
+}
